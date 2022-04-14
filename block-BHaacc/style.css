@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*custom*/
+
+
+body{
+    font-family:  'Open Sans', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+.no-space{
+	justify-content: flex-start;
+}
+.center{
+	align-items: center;
+}
+
+/*section1*/
+
+.section1{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(to right, rgb(74,138,219,85%), rgb(137,238,146,75%)), url(assets/home-bg.jpg) 0/100%;
+}
+
+/*header*/
+
+.header{
+	padding: 30px 0;
+	align-items: center;
+}
+.header a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: white;
+	margin-right: 32px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.header .brand{
+	font-size: 25px;
+	font-weight: 700;
+}
+.header .join{
+	padding: 15px 25px;
+	background-color: #CF3B32;
+	border-radius: 40px;
+}
+.col1{
+	width: 50%;
+	margin-top: 170px;
+}
+.col111{
+	margin-top: 270px;
+}
+.col1 h1{
+	font-size: 40px;
+	line-height: 1.3;
+	color: white;
+	letter-spacing: -1px;
+	font-weight: 600;
+	margin-top: -80px;
+}
+.col1 a{
+	color: white;
+	text-decoration: none;
+	text-transform: none;
+	padding: 15px 25px;
+	border: 2px solid white;
+	border-radius: 30px;
+	margin-top: -20px;
+	float: left;
+}
+.col1 address{
+	margin-top: 40px;
+	color: white;
+	margin-left: 20px;
+	margin-top: -10px;
+	float: left;
+	font-size: 13px;
+	font-weight: 600;
+}
+.col1 address span{
+	text-transform: uppercase;
+}
+.col11{
+	margin-top: 50px;
+}
+
+/*section2*/
+
+.col21{
+	width: 40%;
+}
+.col21 h2{
+	font-size: x-large;
+}
+.square{
+	width: 8px;
+	height: 8px;
+	background-color: #D8D8D8;
+	margin: 15px 5px 20px 0;
+}
+.col21 p{
+	color: #838383;
+	line-height: 1.5;
+	font-size: 13px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.col22{
+	width: 20%;
+	margin: 10px;
+}
+.col22 span{
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.col23{
+	width: 35%;
+	margin-top: -50px;
+}
+.col23 img{
+	width: 89%;
+	height: 300px;
+}
+.section2{
+	margin-top: 100px;
+	height: 250px;
+}
+.percent{
+	height: 3px;
+	background-color: black;
+	margin: 15px 0 20px 0;
+}
+.percent85{
+	width: 85%;
+}
+.percent90{
+	width: 90%;
+}
+.percent75{
+	width: 75%;
+}
+.percent70{
+	width: 70%;
+}
+
+/*section3*/
+
+.section3{
+	background-color: #EFEFEF;
+	text-align: center;
+	padding-bottom: 70px;
+}
+h3{
+	font-size: xx-large;
+	padding-top: 50px;
+	text-transform: capitalize;
+}
+.square-width{
+	width: 40px;
+	margin-left: 48%;
+}
+.col3{
+	width: 47%;
+	height: 300px;
+	background-color: white;
+	margin: 1.2%;
+}
+.col3 img{
+	width: 40%;
+	height: 300px;
+}
+.col3 .col31{
+	width: 50%;
+	margin: 1%;
+	text-align: left;
+	padding: 50px 10px 0 10px;
+}
+.col31 time{
+	color: #CF3B32;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-top: 50px;
+}
+.col31 h4{
+	font-size: 22px;
+	text-transform: capitalize;
+	line-height: 1.3;
+	margin: 10px 0;
+	font-weight: 500;
+	letter-spacing: -2px;
+}
+.col31 p{
+	color: #A1A1A1;
+	line-height: 1.3;
+	font-size: 14px;
+	font-weight: 500;
+}
+.col31 a{
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 15px 25px;
+	border-radius: 30px;
+	margin-top: 30px;
+	background-color: #EFEFEF;
+	color: black;
+	display: inline-block;
+}
+
+/*section4*/
+.section4{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.col4{
+	width: 22%;
+	height: 200px;
+	margin: 1%;
+}
+.col4 img{
+	width: 100%;
+	height: 100%;
+}
+
+/*section5*/
+
+.section5{
+	padding-bottom: 70px;
+	background: linear-gradient(to right, #0C75E6, #75E373);
+}
+.section5 h5{
+	padding-top: 50px;
+	color: whitesmoke;
+	font-size: x-large;
+	text-align: center;
+	text-transform: capitalize;
+}
+.col51{
+	width: 60%;
+	margin-right: 10px;
+}
+.col52{
+	width: 35%;
+	margin: 0 10px;
+}
+.rect{
+	background-color: white;
+	width: 48%;
+	height: 50px;
+	
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	border-radius: 5px;
+}
+.rect i{
+	color: #a7a7a7;
+	margin: 20px 10px;
+}
+.rect2{
+	width: 100%;
+	border-radius: 5px;
+	height: 100px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+.col51 a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 30px;
+	background-color: #CF3B32;
+	display: inline-block;
+}
+.col52 iframe{
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+	margin-left: 20px;
+}
+.section5 span{
+	color: #a7a7a7;
+	margin-left: 10px;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+/*section6*/
+
+.section6{
+	background: linear-gradient(to right, #424242, #010101);
+
+}
+.col61{
+	width: 30%;
+}
+.col62{
+	width: 10%;
+}
+.col63{
+	width: 10%;
+}
+.col64{
+	width: 20%;
+}
+.section6 h6{
+	color: whitesmoke;
+	font-size: x-large;
+	text-transform: capitalize;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.col61 p{
+	color: whitesmoke;
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+.section6 a{
+	text-decoration: none;
+	color: whitesmoke;
+	text-transform: capitalize;
+	line-height: 1.5;
+	font-size: 12px;
+	font-weight: 600;
+}
+.col64 address{
+	color: whitesmoke;
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+hr{
+	width: 80%;
+	margin: 70px 10% 30px 10%;
+}
+
+/*footer*/
+
+.footer address{
+	color: white;
+	padding-bottom: 80px;
+}
+.footer small{
+	color: white;
+	text-transform: capitalize;
+}
+.footer a{
+	margin-left: 32px;
+}
